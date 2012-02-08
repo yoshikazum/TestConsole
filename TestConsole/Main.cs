@@ -111,9 +111,26 @@ namespace TestConsole
 
 
     private static void DoTestEnum(){
+      Test a = Test.Hoge;
       Console.WriteLine(Test.Hoge);
       Console.WriteLine(Test.Hogehoge);
       Console.WriteLine(Test.yoshikazu);
+
+      if(a==Test.Hoge){
+        Console.WriteLine("this is hoge");
+      }
+
+      switch(a){
+        case Test.Hoge:
+          Console.WriteLine("switch: hoge");
+        break;
+
+        case Test.Hogehoge:
+        break;
+
+        case Test.yoshikazu:
+        break;
+      }
     }
 
     public static void Main (string[] args)
