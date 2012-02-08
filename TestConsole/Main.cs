@@ -24,6 +24,9 @@ using System.Net;
 
 namespace TestConsole
 {
+  enum Test{
+    Hoge, Hogehoge, yoshikazu
+  }
   class MainClass
   {
     public static void DoWebRequest ()
@@ -106,6 +109,13 @@ namespace TestConsole
       Console.WriteLine("2:result: {0}", result);
     }
 
+
+    private static void DoTestEnum(){
+      Console.WriteLine(Test.Hoge);
+      Console.WriteLine(Test.Hogehoge);
+      Console.WriteLine(Test.yoshikazu);
+    }
+
     public static void Main (string[] args)
     {
       Console.WriteLine ("Hello World!");
@@ -116,6 +126,7 @@ namespace TestConsole
       DoSampleDelegate();
       DoSampleRamda();
       DoSampleRamda2();
+      DoTestEnum();
     }
   }
 

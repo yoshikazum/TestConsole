@@ -1,9 +1,6 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TestConsole/Main.cs">
-    <Files>
-      <File FileName="TestConsole/Main.cs" Line="97" Column="45" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
@@ -14,7 +11,12 @@
       </Pad>
       <Pad Id="ClassPad">
         <State expanded="True">
-          <Node name="TestConsole" expanded="True" />
+          <Node name="TestConsole" expanded="True">
+            <Node name="TestConsole" expanded="True">
+              <Node name="TestConsole.MainClass" selected="True" />
+              <Node name="TestConsole.SampleRamda" expanded="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
